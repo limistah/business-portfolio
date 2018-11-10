@@ -1,0 +1,372 @@
+.logo {
+    height: 60px;
+    margin-bottom: 12px;
+}
+
+nav#main .item,
+.ui.menu.sidebar .item {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+nav#main a.item:hover,
+.ui.menu.sidebar .item:hover {
+    background: rgba(0, 181, 273, .15);
+}
+
+nav#main.nav-background {
+    background: red;
+}
+
+.ui.menu .teal.active.item, .ui.teal.menu .active.item {
+  color: whitesmoke !important;
+  border-color: #4f9100 !important;
+}
+#siteIndex .full.width {
+    background-image: url("../images/dining.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#siteAbout .full.width {
+    background-image: url("../images/sunglasses-1765585_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#siteContribute .full.width {
+    background-image: url("../images/pexels-photo-136320.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#siteDownload .full.width {
+    background-image: url("../images/eye-491625_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#siteAbout #masthead,
+#siteDownload #masthead,
+#siteContribute #masthead {
+    background: rgba(0, 0, 0, .85);
+    margin: 0;
+    height: 100%;
+}
+
+#siteIndex #masthead {
+    background: rgba(0, 0, 0, .65);
+    margin: 0;
+    height: 100%;
+}
+
+#masthead .ui.container {
+    min-height: 350px;
+    height: auto;
+}
+
+@media only screen and (max-width: 810px) {
+    #masthead .ui.container {
+        margin-top: 50px;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    #masthead .intro {
+        display: block;
+    }
+}
+
+.item#menuToggle {
+    display: none;
+}
+
+.ui.menu.sidebar {
+    /*background: rgba(0, 181, 273, .055);*/
+    /*background:rgba(0, 0, 0, .625);*/
+}
+
+.ui.menu.sidebar .item.active {
+    background: rgba(0, 0, 0, .425);
+}
+
+@media only screen and (max-width: 768px) {
+    div#main #mainItem,
+    div#main .item:not(#menuToggle) {
+        display: none;
+    }
+    .item#menuToggle {
+        display: block;
+    }
+
+    .sidebar .ui.image {
+      margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1272px) {
+    #masthead .intro {
+        display: table-cell;
+        vertical-align: top;
+        width: 100%;
+    }
+}
+
+#masthead .ui.container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    height: 55vh;
+    min-height: 600px;
+    webkit-box-align: center;
+    webkit-align-items: center;
+    ms-flex-align: center;
+    align-items: center;
+    display: webkit-box;
+    display: webkit-flex;
+    display: ms-flexbox;
+    display: flex;
+    webkit-box-pack: center;
+    justify-content: center;
+    padding: 15rem 0rem;
+}
+
+#masthead .intro {
+    position: relative;
+    clear: both;
+    display: block;
+    text-align: center;
+}
+
+#masthead h1.huge.header {
+    font-size: 65px;
+}
+
+#masthead h1.huge.header .tagline {
+    font-weight: normal;
+    display: block;
+    font-size: 35px;
+    line-height: 2.5rem;
+}
+
+.action.button-cont {
+    display: block;
+}
+
+.action.button-cont .ui.button {
+    margin-left: 20px;
+}
+
+.action.button-cont a.ui.download.button {
+    margin-left: 0px;
+}
+
+.ui.header {
+    font-weight: normal;
+}
+
+#siteIndex .intro.stripe .ui.header,
+#siteIndex .why.stripe .main.ui.header,
+#siteIndex .email .ui.header,
+#siteAbout h1.ui.header,
+#siteContribute .intro.segment h1 {
+    font-size: 40px;
+}
+
+#siteIndex .intro.segment h1+p,
+#siteContribute .intro.segment h1+p {
+    font-size: 22px;
+}
+
+#siteIndex .email.stripe,
+#siteIndex .stripe,
+#siteAbout .stripe,
+#siteDownload .stripe,
+#siteContribute .stripe {
+    padding: 5em 0em
+}
+
+#siteIndex .alternate.stripe {
+    background-color: #F2F3F5;
+}
+
+#siteIndex .stripe .column>p {
+    line-height: 1.6;
+    margin: 1em 0em;
+}
+
+#siteIndex .email.stripe .input {
+    /*width: 450px;*/
+}
+
+#siteIndex .email.stripe .submit.button {
+    margin-left: 1em;
+}
+
+#masthead .intro-text {
+    color: #fff;
+    font-weight: 600!important;
+    font-size: 23px;
+    margin-top: 80px;
+    background: rgba(255, 255, 255, .19) !important;
+    padding: 20px 15px;
+    border-radius: 5px;
+}
+
+div.social-icon-cont {
+    position: fixed;
+    height: 135px;
+    background: rgba(255, 255, 255, .95);
+    border: 1px solid rgba(255, 255, 255, .19);
+    width: 50px;
+    top: 40%;
+    right: 0px;
+    z-index: 1020;
+    border-radius: 3px;
+}
+
+.social-icon-cont a {
+    margin: 0 auto;
+    padding: 5px 7px;
+}
+
+.social-icon-cont a.facebook:hover {
+    color: rgba(52, 82, 152, 1);
+}
+
+.social-icon-cont a.twitter:hover {
+    color: rgba(21, 157, 239, 1);
+}
+
+.social-icon-cont a.whatsapp:hover {
+    color: rgba(3, 90, 80, 1);
+}
+
+.social-icon-cont a.facebook {
+    color: rgba(59, 89, 152, 1);
+}
+
+.social-icon-cont a.twitter {
+    color: rgba(29, 161, 242, 1);
+}
+
+.social-icon-cont a.whatsapp {
+    color: rgba(7, 94, 84, 1);
+}
+
+.social-icon-cont i {
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+}
+
+.menu-cont {
+    background: rgba(255, 255, 255, .15) !important;
+}
+
+.menu,
+.menu a {
+    /*background: whitesmoke;*/
+    color: white!important;
+    font-weight: bold;
+}
+
+.menu a:hover,
+.menu a.active {
+    color: rgba(235, 234, 235, .95) !important;
+    background: rgba(255, 255, 255, .19) !important;
+}
+
+.masthead .text {
+    color: #fff;
+    font-weight: 600!important;
+    font-size: 23px;
+    margin-top: 80px;
+    background: rgba(255, 255, 255, .19) !important;
+    padding: 20px 15px;
+    border-radius: 5px;
+}
+
+div.speech .column:hover {
+    transform: translateY(-10px);
+    transition: transform .3s ease;
+    cursor: pointer;
+}
+
+div.social-icon-cont {
+    position: fixed;
+    height: 135px;
+    background: rgba(255, 255, 255, .95);
+    border: 1px solid rgba(255, 255, 255, .19);
+    width: 50px;
+    top: 40%;
+    right: 0px;
+    z-index: 1020;
+    border-radius: 3px;
+}
+
+.social-icon-cont a {
+    margin: 0 auto;
+    padding: 5px 7px;
+}
+
+.social-icon-cont a.facebook:hover {
+    color: rgba(52, 82, 152, 1);
+}
+
+.social-icon-cont a.twitter:hover {
+    color: rgba(21, 157, 239, 1);
+}
+
+.social-icon-cont a.whatsapp:hover {
+    color: rgba(3, 90, 80, 1);
+}
+
+.social-icon-cont a.facebook {
+    color: rgba(59, 89, 152, 1);
+}
+
+.social-icon-cont a.twitter {
+    color: rgba(29, 161, 242, 1);
+}
+
+.social-icon-cont a.whatsapp {
+    color: rgba(7, 94, 84, 1);
+}
+
+.social-icon-cont i {
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+}
+
+.menu-cont {
+    background: rgba(140, 71, 33, .9) !important;
+}
+
+.menu,
+.menu a {
+    /*background: whitesmoke;*/
+    color: white!important;
+    font-weight: bold;
+}
+
+.menu a:hover,
+.menu a.active {
+    color: rgba(235, 234, 235, .95) !important;
+    background: rgba(255, 255, 255, .19) !important;
+}
+
+.property .ui.fluid.image img,
+.property .ui.fluid.image {
+    height: 100% !important;
+    /*overflow: hidden;*/
+}
+
+.post .content {
+    /*margin-top: 20px;*/
+}

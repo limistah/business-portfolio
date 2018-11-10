@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <title>Home &lsaquo; Omerian Consult</title>
+    <link href="./assets/css/semantic.min.css" rel="stylesheet">
+    <link href="./assets/css/custom.css" rel="stylesheet">
+</head>
+
+<body id="siteIndex">
+
+    <div class="ui left vertical labeled icon inverted pointing menu sidebar">
+        <a href="http://afrophp.com/" class="item">
+            <img src="./assets/images/logo.png" alt="">
+        </a>
+
+        <a href="http://afrophp.com/" target="_self" class="active item">
+            <i class="home icon"></i> HOME
+        </a>
+        <a href="http://afrophp.com/about" target="_self" class="item">
+            <i class="question icon"></i> SERVICES
+            <ul class="list">
+                <li class="item">
+                    <a href="real-estate.html">Real Estate</a>
+                </li>
+            </ul>
+        </a>
+        <a href="http://afrophp.com/download" target="_self" class="item">
+            <i class="download icon"></i> BLOG
+        </a>
+        <a href="http://afrophp.com/user_guide" target="_self" class="item">
+            <i class="book icon"></i> OMERIAN FOUNDATION
+        </a>
+        <a href="http://afrophp.com/contribute" target="_self" class="item">
+            <i class="edit icon"></i> TEAM
+        </a>
+        <a href="http://afrophp.com/contribute" target="_self" class="item">
+            <i class="edit icon"></i> Contact
+        </a>
+
+    </div>
+
+    <main class="ui container-fluid pusher">
+
+        <nav class="ui container">
+            <div class="ui top fixed  teal secondary pointing borderless menu menu-cont">
+                <div class="ui container ">
+                    <a class="item">
+                        <img src="./assets/images/logo.png" alt="">
+                    </a>
+                    <div class="right menu">
+                        <a href="" class="active ui item">
+                            HOME
+                        </a>
+                        <a id="servicesLink" class="ui item">
+                            SERVICES
+                            <i class="dropdown icon"></i>
+                        </a>
+                        <div class="ui popup bottom center transition hidden" style="top: 553px; left: 1px; bottom: auto; right: auto; width: 670px;">
+
+                            <div class="ui list">
+                                <a class="item" style="color:black !important;">Real Estitate</a>
+                                <a class="item" style="color:black !important;">Deals Facilitation</a>
+                                <a class="item" style="color:black !important;">Licenses and Permits</a>
+                                <a class="item" style="color:black !important;">Research</a>
+                            </div>
+                        </div>
+
+                        <a href="testimonial.html" class="ui item">
+                            BLOG
+                        </a>
+                        <a href="faq.html" class="ui item">
+                            OMERIAN FOUNDATION
+                        </a>
+                        <a href="login.html" class="ui item">
+                            TEAM
+                        </a>
+                        <a href="contact.html" class="ui item">
+                            CONTACT
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="social-icon-cont">
+            <a href="facebook.com/omerianconsult" target="about:blank" class="facebook">
+                <i class="ui big icon facebook " aria-hidden="true"></i>
+            </a>
+            <a href="#" class="twitter">
+                <i class="ui big twitter icon" aria-hidden="true" style="color:inherit"></i>
+            </a>
+            <a href="#" class="whatsapp">
+                <i class="ui big icon whatsapp" aria-hidden="true" style="color:inherit"></i>
+            </a>
+        </div>
+
+
+        <div class="full width">
+            <div class="ui basic center aligned justfied segment" id="masthead">
+                <div class="ui container">
+                    <div class="intro">
+                        <h1 class="ui huge inverted header">
+                            <span class="framework name">
+                             See Our Latest Properties.
+                          </span>
+                        </h1>
+                        <div class="ui hidden divider"></div>
+                        <div class="action button-cont ui grid">
+                            <div class="sixteen wide computer only column">
+                                <div class="ui basic segment intro-text">
+                                    <p>
+                                        We deal in the sale/purchase, lease and management of lands, houses, and commercial/industrial properties such as factories, warehouses, filling stations, shopping malls etc
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div>
+        </div>
+
+        <div class="ui basic very padded segment" style="margin-bottom:0px;margin-top:0px; background:#4f9100;">
+            <div class="ui stackable grid container">
+                <div class="row speech">
+                    <div class="center aligned column">
+                        <div class="ui basic segment" style="color:whitesmoke; font-size:1.8em;">
+                            <h1 class="ui huge dividing header" style="color:whitesmoke;">Real Estate</h1>
+                            <p>
+                                Beyond your ownership of these properties and in line with our commitment to Exploring Opportunities, our greater concern is that they are put to good use that brings you maximum profit. Moreover, we analyse development trends and help you make low-cost-high-yield
+                                investments in places such as Ibeju Lekki. We also have farm lands going for as low as N300,000 per acre. We work with a group of professionals such as surveyors, builders and architects to enable you meet your investment
+                                objectives.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui basic very padded segment" style="margin-bottom:0px;margin-top:0px; background:#066fd9;">
+            <div class="ui stackable grid container">
+                <div class="row speech">
+                    <div class="center aligned column">
+                        <div class="ui basic segment" style="color:whitesmoke; font-size:1.8em;">
+                            <h1 class="ui huge dividing header" style="color:whitesmoke;">Deals Facilitation</h1>
+                            <p>
+                                Do you need a particular product, farm produce, raw material, mineral resource or service from Nigeria? Would you like us to connect you with credible local partners? Why not CONTACT US?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui basic very padded segment" style="margin-bottom:0px;margin-top:0px; background:#4f9100;">
+            <div class="ui stackable grid container">
+                <div class="row speech">
+                    <div class="center aligned column">
+                        <div class="ui basic segment" style="color:whitesmoke; font-size:1.8em;">
+                            <h1 class="ui huge dividing header" style="color:whitesmoke;">Licenses and Permits</h1>
+                            <p>
+                                Whether you want to establish a shopping mall, a private university, a manufacturing industry, a farm, a gas station, a technology company or any other type of business, we can assist you in obtaining from the relevant government authorities the licenses
+                                and permits needed to do business in Nigeria. This includes the Corporate Affairs Commission (CAC), tax authorities, the National Agency for Food and Drugs Administration and Control (NAFDAC) and other industry regulators.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ui basic very padded segment" style="margin-bottom:0px;margin-top:0px; background:#066fd9;">
+            <div class="ui stackable grid container">
+                <div class="row speech">
+                    <div class="center aligned column">
+                        <div class="ui basic segment" style="color:whitesmoke; font-size:1.8em;">
+                            <h1 class="ui huge dividing header" style="color:whitesmoke;">Research</h1>
+                            <p>
+                                We provide client-sponsored research such as feasibility studies, market research, product feedback and surveys. We also carry out proprietary research that gives insight into developments that are of business interest in Nigeria. Such information are
+                                displayed in the blog section of our website.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui basic very padded segment">
+            <div class="ui stackable grid container">
+                <div class="row">
+                    <div class="column">
+                        <h2 class="ui header">Our Properties List</h2>
+                    </div>
+                </div>
+                <div class="two column row">
+                    <div class="column">
+                        <div class="ui stackable celled grid" style="border:1px solid #2f2f2f; border-radius:5px;">
+                            <div class="row">
+                                <div class="six wide column">
+                                    <div class="ui fluid image">
+                                        <div class="ui black ribbon label">
+                                            Available
+                                        </div>
+                                        <img src="./assets/images/cocoa.jpg" alt="" class="">
+                                    </div>
+                                </div>
+                                <div class="ten wide column">
+                                    <h3 class="property-name">Property Name</h3>
+                                    <p class="property-descrption">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, quisquam! <a href="#">Read More</a>
+                                    </p>
+
+                                    <div class="property-tags">
+                                        <div class="ui small header" style="font-weight:bold;font-size:20px;">N 20,000 <span style="background:rgba(0, 0, 0, .15);padding-left: 5px; border-radius:3px; padding-right: 5px;float:right;font-size:.7em !important;">House</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui stackable celled grid" style="border:1px solid #2f2f2f; border-radius:5px;">
+                            <div class="row">
+                                <div class="six wide column">
+                                    <div class="ui fluid image">
+                                        <div class="ui black ribbon label">
+                                            Available
+                                        </div>
+                                        <img src="./assets/images/cocoa.jpg" alt="" class="">
+                                    </div>
+                                </div>
+                                <div class="ten wide column">
+                                    <h3 class="property-name">Property Name</h3>
+                                    <p class="property-descrption">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, quisquam! <a href="#">Read More</a>
+                                    </p>
+
+                                    <div class="property-tags">
+                                        <div class="ui small header" style="font-weight:bold;font-size:20px;">N 20,000 <span style="background:rgba(0, 0, 0, .15);padding-left: 5px; border-radius:3px; padding-right: 5px;float:right;font-size:.7em !important;">House</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui basic padded  segment">
+            <div class="ui stackable grid container">
+                <div class="row">
+                    <div class="centered column">
+                        <h2 class="ui header">Latest Posts</h2>
+                    </div>
+                </div>
+                <div class="three column row">
+                    <div class="column">
+                        <div class="ui fluid card">
+                            <a class="image">
+                                <img src="./assets/images/cocoa.jpg">
+                            </a>
+                            <div class="content">
+                                <a class="header">Why should you invest in Ogun State</a>
+                                <div class="description">
+                                    Industrialization, proximity to Lagos, rapidly growing population and access <a href="">Continue Reading</a>
+                                </div>
+
+                            </div>
+                            <div class="extra content">
+                                <span class="left floated like">
+                                        <i class="folder icon"></i>
+                                        Category
+                                    </span>
+                                <span class="right floated star">
+                                        <i class="time icon"></i>
+                                        March 17
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui fluid card">
+                            <a class="image">
+                                <img src="./assets/images/cocoa.jpg">
+                            </a>
+                            <div class="content">
+                                <a class="header">Why should you invest in Ogun State</a>
+                                <div class="description">
+                                    Industrialization, proximity to Lagos, rapidly growing population and access <a href="">Continue Reading</a>
+                                </div>
+
+                            </div>
+                            <div class="extra content">
+                                <span class="left floated like">
+                                        <i class="folder icon"></i>
+                                        Category
+                                    </span>
+                                <span class="right floated star">
+                                        <i class="time icon"></i>
+                                        March 17
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui fluid card">
+                            <a class="image">
+                                <img src="./assets/images/cocoa.jpg">
+                            </a>
+                            <div class="content">
+                                <a class="header">Why should you invest in Ogun State</a>
+                                <div class="description">
+                                    Industrialization, proximity to Lagos, rapidly growing population and access <a href="">Continue Reading</a>
+                                </div>
+
+                            </div>
+                            <div class="extra content">
+                                <span class="left floated like">
+                                        <i class="folder icon"></i>
+                                        Category
+                                    </span>
+                                <span class="right floated star">
+                                        <i class="time icon"></i>
+                                        March 17
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui basic very padded segment" style="margin-bottom:0px;margin-top:0px; background:rgba(140, 71, 33, 1);">
+            <div class="ui stackable grid container">
+                <div class="stretched middle aligned row" style="margin-bottom:30px;margin-top:30px;">
+                    <div class="eight wide computer only column">
+                        <div class="ui basic center aligned  very padded segment">
+                            <h2 class="ui large header" style="color:#d3db36; ">
+                                <!--<strong>-->
+                                NEVER MISS AN OPPORTUNITY!
+                                <!--</strong>-->
+                            </h2>
+                        </div>
+
+                    </div>
+                    <div class="eight wide computer only column">
+                        <div class="ui basic center aligned very padded segment">
+                            <form class="ui form">
+                                <div class="ui big action input">
+                                    <input style="background:transparent; color:aliceblue" required type="email" class="item" placeholder="Enter your email" />
+                                    <button class="ui icon button">
+                                        <i class="search icon"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="ten wide mobile only column">
+                        <div class="ui basic center aligned segment">
+                            <h3 class="ui large header" style="color:#d3db36; ">
+                                <!--<strong>-->
+                                NEVER MISS AN OPPORTUNITY!
+                                <!--</strong>-->
+                            </h3>
+                        </div>
+
+                    </div>
+                    <div class="six wide mobile only column">
+                        <div class="ui basic center aligned segment">
+                            <form class="ui form">
+                                <div class="ui big action input">
+                                    <input style="background:transparent; color:aliceblue" type="text" class="item" placeholder="Enter your email" />
+                                    <button class="ui icon button">
+                                        <i class="search icon"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="ui container-fluid" style="margin-bottom:0px;margin-top:0px; background:#2f2f2f;">
+        <div class="ui very padded basic segment">
+            <div class="ui stackable grid container">
+                <div class="three column stretched row">
+                    <div class=" column">
+                        <div class="ui basic segment">
+                            <div class="ui styled fluid accordion">
+                                <div class="title" style="color:black">
+                                    <i class="dropdown icon"></i> ADVERTISE WITH US!
+                                </div>
+                                <div class="content">
+                                    <p>
+                                        Do you want to advertise your business to our teeming visitors from all over the world? Perhaps you are a government that wants to showcase the investment opportunities in your state to business men and investors all around the world? Partner with us
+                                        to attract foreign direct investments to your state.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui basic segment">
+                            <div class="ui styled fluid accordion">
+                                <div class="title" style="color:black">
+                                    <i class="dropdown icon"></i> DISCLAIMER
+                                </div>
+                                <div class="content">
+                                    <p>
+                                        While the promoters of this site have used their best efforts in researching the information herein, they make no representations or warranties with respect to its accuracy or completeness. Also, it is subject to change at any time.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui basic segment">
+                            <div class="ui styled fluid accordion">
+                                <div class="title" style="color:black">
+                                    <i class="dropdown icon"></i> PRIVACY POLICY
+                                </div>
+                                <div class="content">
+                                    <p>
+                                        We are 100% committed to ensuring that every information you give us both online and offline including details of your transactions is kept confidential except circumstances such as a court case compels us to divulge it.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="center aligned row">
+                    <div class="column">
+                        <p style="color:#8b8c8d">
+                            &copy; 2017 Omerian Consult.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="./assets/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="./assets/js/semantic.min.js"></script>
+    <script type="text/javascript" src="./assets/js/custom.js"></script>
+</body>
+
+</html>
+<p style="color:#8b8c8d">
+    &copy; 2017 Omerian Consult.
+</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+<script type="text/javascript" src="./assets/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="./assets/js/semantic.min.js"></script>
+<script type="text/javascript" src="./assets/js/custom.js"></script>
+</body>
+
+</html>
